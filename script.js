@@ -17,7 +17,7 @@ const init = async() => {
   const info = data.info // info object
   const characters = data.results // characters array
 
-  characters.forEach(character => rootElement.insertAdjacentHTML("beforeend", characterComponent(characters)))
+  characters.forEach(character => rootElement.insertAdjacentHTML("beforeend", characterComponent(character)))
 
 
   })
