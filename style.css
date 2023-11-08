@@ -14,7 +14,7 @@ html {
   color: rgb(13, 58, 13);
 }
 
-div#root {
+div.characters {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -27,8 +27,7 @@ div.char {
   border: 2px solid black;
 }
 
-div.char h2,
-h3 {
+div.char h2, h3 {
   text-align: center;
 }
 
@@ -44,3 +43,12 @@ div.char img {
   border-bottom: 2px solid black;
 }
 
+div.buttons {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+div.buttons button {
+  padding: 12px 20px;
+  font-size: 24px;
+}
