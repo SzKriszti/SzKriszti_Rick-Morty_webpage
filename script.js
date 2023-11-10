@@ -18,20 +18,18 @@ const characterComponent = (characterData) => `
 `
 
 const selectedCharacterComponent = (characterData) => {
-  let episodeHTML =[]
+  let episodesArray = []
 
-  characterData.episode.forEach(episode => {
-    episodeHTML.push(episode.substring(40))
+  characterData.episode.forEach(epUrl => {
+    episodesArray.push(epUrl.substring(40))
   })
-
-  console.log(episodeHTML)
 
 return `
   <h2>${characterData.name}</h2>
   <h3>${characterData.status}</h3>
   <h5>${characterData.gender}</h5>
   <h5>${characterData.species}</h5>
-  <h5>episodes: ${episodeHTML.join(", ")}</h5>
+  <h5>episodes: ${episodesArray.join(', ')}</h5>
 `}
 
 
