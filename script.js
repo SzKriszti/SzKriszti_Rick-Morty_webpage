@@ -90,8 +90,6 @@ const init = () => {
     makeDomFromData(data, rootElement)
 
     const selectedCharElement = document.querySelector("#selected-card")
-    console.log(selectedCharElement)
-
     const charElements = document.querySelectorAll(".char")
 
     charElements.forEach(charElement => charElement.addEventListener("click", ()=> {
