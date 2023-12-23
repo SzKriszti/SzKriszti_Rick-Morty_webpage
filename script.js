@@ -97,7 +97,6 @@ const init = () => {
       const characterList = data.results
       const selectedChar = characterList.find((char) => char.name === selectedName)
       selectedCharElement.innerHTML = selectedCharacterComponent(selectedChar)
-      console.log(selectedChar)
     }))
 
   })
