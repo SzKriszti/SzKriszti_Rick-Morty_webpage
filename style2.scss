@@ -74,6 +74,10 @@ div.char {
     border-bottom: 2px solid black;
     max-width: 303px;
   }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 div.buttons {
@@ -89,3 +93,5 @@ div.buttons {
     font-size: 24px;
   }
 }
+
+// 530 px media quary need

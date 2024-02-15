@@ -25,11 +25,11 @@ const selectedCharacterComponent = (characterData) => {
   })
 
 return `
-  <h2>${characterData.name}</h2>
-  <h3>${characterData.status}</h3>
-  <h5>${characterData.gender}</h5>
-  <h5>${characterData.species}</h5>
-  <h5>episodes: ${episodesArray.join(', ')}</h5>
+  <h3>${characterData.name}</h3>
+  <h5>Status: ${characterData.status}</h5>
+  <p>Gender: ${characterData.gender}</p>
+  <p>Species: ${characterData.species}</p>
+  <p>Episodes: ${episodesArray.join(', ')}</p>
 `}
 
 
