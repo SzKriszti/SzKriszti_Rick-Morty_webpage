@@ -10,8 +10,8 @@
 /* --- CSS RESET END --- */
 
 html {
-  background-color: rgb(46, 237, 46);
-  color: rgb(10, 40, 10);
+  background-color: #d3dfe6;
+  color: #1b6f20;
 }
 
 h1 {
@@ -31,9 +31,9 @@ p#selected-card {
   height: 100vh;
 
   padding: 10px;
-  border-right: 2px solid black;
+  border-right: 2px solid ;
 
-  background-color: white;
+  background-color: #6cac6c71;
 
   font-family: 'Oswald', sans-serif;
   font-size: 24px;
@@ -50,8 +50,10 @@ div.characters {
 }
 
 div.char {
-  border: 2px solid black;
-  max-width: 303px;
+  border: 2px solid #316759;
+  max-width: 305px;
+
+  background-color: #63cbfb73;
 
   h2,
   h3 {
